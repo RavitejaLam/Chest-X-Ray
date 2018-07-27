@@ -1,0 +1,265 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html class="no-js" style="display: block;" lang="zxx"><link type="text/css" id="dark-mode" rel="stylesheet" href=""><style type="text/css" id="dark-mode-custom-style"></style><head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="#">
+		<!-- Author Meta -->
+		<meta name="author" content="colorlib">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>Home</title>
+
+		<link href="{% static "about_files/css.css" %}" rel="stylesheet"> 
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="{% static "about_files/linearicons.css"%}">
+			<link rel="stylesheet" href="{% static "about_files/font-awesome.css"%}">
+			<link rel="stylesheet" href="{% static "about_files/bootstrap.css"%}">
+			<link rel="stylesheet" href="{% static "about_files/magnific-popup.css"%}">
+			<link rel="stylesheet" href="{% static "about_files/jquery-ui.css"%}">				
+			<link rel="stylesheet" href="{% static "about_files/nice-select.css"%}">							
+			<link rel="stylesheet" href="{% static "about_files/animate.css"%}">
+			<link rel="stylesheet" href="{% static "about_files/owl.css"%}">			
+			<link rel="stylesheet" href="{% static "about_files/jquery-ui.css"%}">			
+			<link rel="stylesheet" href="{% static "about_files/main.css"%}">
+		<script type="text/javascript" charset="UTF-8" src="{% static "about_files/common.js" %}"></script><script type="text/javascript" charset="UTF-8" src="{% static "about_files/util.js" %}"></script><script type="text/javascript" charset="UTF-8" src="{% static "about_files/stats.js" %}"></script><script type="text/javascript" charset="UTF-8" src="{% static "about_files/AuthenticationService.Authenticate" %}"></script></head>
+		<body style="display: block;"><button type="button" id="mobile-nav-toggle"><i class="lnr lnr-menu"></i></button>	
+		  <header id="header">
+		    <div class="container main-menu">
+		    	<div class="row align-items-center justify-content-between d-flex">
+			      <div id="logo">
+			        <a href="http://solivarlabs.com/"><img src="http://solivarlabs.com/wp-content/uploads/2018/05/Untitled-drawing.png" alt="" title="" height="70px;"></a>
+			      </div>
+			      <nav id="nav-menu-container bigger">
+						<ul class="nav-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
+							<li><a href="{%url 'chestxray:home' %}">Home</a></li>
+							<li><a href="{%url 'chestxray:about' %}">About</a></li>
+							<li><a href="{%url 'chestxray:models' %}">Models</a></li>
+							<li><a href="{%url 'chestxray:team' %}">Team</a></li>				          					          		          
+							<li><a href="{%url 'chestxray:contact' %}">Contact</a></li>
+							{% if user.is_authenticated %}
+							<li><a href="">{{ user.username }}</a></li>
+							<li><a href="">
+								<img width="100px" style="margin: -50px 0px;" alt="Google &quot;Google&quot; Logout" src="https://i.stack.imgur.com/I3NM6.png"/>
+							</a></li>
+							{% else %}
+							<li><a href="{%url 'social:begin' 'google-oauth2' %}" style="text-transform:none">
+							<img width="190px" style="margin: -45px 0px;" alt="Google &quot;Google&quot; Login" src="https://www.loqato.com/img/btn-login-googleplus.png"/>
+							</a></li>
+							{% endif %}
+						</ul>
+			      </nav><!-- #nav-menu-container -->		    		
+		    	</div>
+		    </div>
+		  </header><!-- #header -->
+			  
+			<!-- start banner Area -->
+			<section class="banner-area relative about-banner" id="home">	
+				<div class="overlay overlay-bg"></div>
+				<div class="container">				
+					<div class="row d-flex align-items-center justify-content-center">
+						<div class="about-content col-lg-12">
+							<h1 class="text-white">
+								About Us				
+							</h1>	
+							<p class="text-white link-nav"><a href="{%url 'chestxray:home' %}">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="{%url 'chestxray:about' %}"> About Us</a></p>
+						</div>	
+					</div>
+				</div>
+			</section>
+			<!-- End banner Area -->
+			<br>			
+
+			<!-- Start info Area -->
+			<section class="info-area">
+				<div class="container-fluid">
+					<div class="row align-items-center">
+						<div class="col-lg-6 no-padding info-area-left">
+							<img class="img-fluid" src="{% static "about_files/about-img.jpg" %}" alt="">
+						</div>
+						<div class="col-lg-6 info-area-right">
+							<h1>Solivar Interns</h1>
+							<p>We are the students currently working in <a>Soliavr Labs<a/> as intern.</p>
+							<br>
+							<p>
+								Our task id to minimize the work for patients.
+							</p>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!-- End info Area -->				
+
+			<!-- Start team Area -->
+		    <section class="team-area section-gap">
+		        <div class="container">
+		            <div class="row d-flex justify-content-center">
+		                <div class="menu-content pb-70 col-lg-7">
+		                    <div class="title text-center">
+		                        <h1 class="mb-10">Our Team</h1>
+		                        <p>Here we design and implement with <strong>LOVE</strong></p>
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="row justify-content-center d-flex align-items-center">
+		                <div class="col-lg-3 col-md-6 single-team">
+		                    <div class="thumb">
+		                        <img class="img-fluid" src="{% static "about_files/t2.jpg" %}" alt="">
+		                        <div class="align-items-end justify-content-center d-flex">
+									<div class="social-links">
+										<a href="https://www.facebook.com/ravitejalam"><i class="fa fa-facebook"></i></a>
+										<a href="https://github.com/RavitejaLam"><i class="fab fa-github"></i></a>
+										<a href="https://www.instagram.com/raviteja.lam/"><i class="fa fa-instagram"></i></a>
+										<a href="https://twitter.com/Ravitejalam"><i class="fa fa-twitter"></i></a>
+									</div>			                        	
+		                            <p>
+		                            	Lead
+		                            </p>
+		                            <h4>Raviteja Lam</h4>		                            
+		                        </div>
+		                    </div>
+		                </div>
+		                <div class="col-lg-3 col-md-6 single-team">
+		                    <div class="thumb">
+		                        <img class="img-fluid" src="{% static "about_files/t3.jpg" %}" alt="">
+		                        <div class="align-items-end justify-content-center d-flex">
+									<div class="social-links">
+										<a href="https://www.facebook.com/manohar.sai.12"><i class="fa fa-facebook"></i></a>
+										<a href="https://github.com/manoharganta256"><i class="fab fa-github"></i></a>
+										<a href="https://www.instagram.com/manohar_ganta/"><i class="fa fa-instagram"></i></a>
+										<a href="#"><i class="fa fa-twitter"></i></a>
+									</div>			                        	
+		                            <p>
+		                            	Co Worker
+		                            </p>
+		                            <h4>Manohar Ganta</h4>		                            
+		                        </div>
+		                    </div>
+		                </div>		                		                		                
+		            </div>
+		        </div>
+		    </section>
+		    <!-- End team Area -->				
+
+			<!-- start footer Area -->		
+			<footer class="footer-area section-gap">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-2  col-md-6">
+							<div class="single-footer-widget">
+								<h6>Our Products</h6>
+								<ul class="footer-nav">
+									<li><a href="http://mlguard.com/home/">ML Guard</a></li>
+									<li><a href="http://www.solivar.com/">Solivar Insights</a></li>
+									<li><a href="http://www.mlworkshops.com/">Ml Workshops</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-4  col-md-6">
+							<div class="single-footer-widget mail-chimp">
+								<h6 class="mb-20">Contact Us</h6>
+								<p>
+									6-25, Maridi valley, Marikavalasa Village,Madhurawada, Visakhapatnam, Andhra Pradesh 530048
+								</p>
+								<h3>+91-7989961033</h3>
+							</div>
+						</div>							
+						<div class="col-lg-6  col-md-12">
+							<div class="single-footer-widget newsletter">
+								<h6>Newsletter</h6>
+								<p>We will send you the updates regarding our Products</p>
+								<div id="mc_embed_signup">
+									<form target="_blank" action="#" method="get" class="form-inline" novalidate="true">
+
+										<div class="form-group row" style="width: 100%">
+											<div class="col-lg-8 col-md-12">
+												<input name="EMAIL" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '" required="" type="email">
+											</div> 
+										
+											<div class="col-lg-4 col-md-12">
+												<button class="nw-btn primary-btn circle">Subscribe<span class="lnr lnr-arrow-right"></span></button>
+											</div> 
+										</div>		
+										<div class="info"></div>
+									</form>
+								</div>		
+							</div>
+						</div>					
+					</div>
+
+					<div class="row footer-bottom d-flex justify-content-between">
+						<p class="col-lg-8 col-sm-12 footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright ©<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">Raviteja Lam</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+						<div class="col-lg-4 col-sm-12 footer-social">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-dribbble"></i></a>
+							<a href="#"><i class="fa fa-behance"></i></a>
+						</div>					
+					</div>
+				</div>
+			</footer>
+			<!-- End footer Area -->
+
+
+			<script src="{% static "about_files/jquery-2.js" %}"></script>
+			<script src="{% static "about_files/popper.js" %}"></script>
+			<script src="{% static "about_files/bootstrap.js" %}"></script>			
+			<script src="{% static "about_files/js" %}"></script>
+ 			<script src="{% static "about_files/jquery-ui.js" %}"></script>					
+  			<script src="{% static "about_files/easing.js" %}"></script>			
+			<script src="{% static "about_files/hoverIntent.js" %}"></script>
+			<script src="{% static "about_files/superfish.js" %}"></script>	
+			<script src="{% static "about_files/jquery_003.js" %}"></script>
+			<script src="{% static "about_files/jquery.js" %}"></script>	
+    		<script src="{% static "about_files/jquery_004.js" %}"></script>						
+			<script src="{% static "about_files/jquery_002.js" %}"></script>	
+			<script src="{% static "about_files/owl.js" %}"></script>									
+			<script src="{% static "about_files/mail-script.js" %}"></script>	
+			<script src="{% static "about_files/main.js" %}"></script>	
+
+
+<script src="https://use.fontawesome.com/18c6714091.js"></script>	
+<script>
+	$(document).on('click','.searchbychar', function(event) {
+    event.preventDefault();
+    var target = "#" + this.getAttribute('data-target');
+    $('html, body').animate({
+        scrollTop: $(target).offset().top
+    }, 2000);
+	});
+</script>
+	<nav id="mobile-nav">
+		<ul class="nav-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
+			<li><a href="{%url 'chestxray:home' %}">Home</a></li>
+			<li><a href="{%url 'chestxray:about' %}">About</a></li>
+			<li><a href="{%url 'chestxray:models' %}">Models</a></li>
+			<li><a href="{%url 'chestxray:team' %}">Team</a></li>				          					          		          
+			<li><a href="{%url 'chestxray:contact' %}">Contact</a></li>
+			{% if user.is_authenticated %}
+			<li><a href="">{{ user.username }}</a></li>
+			<li><a href="">
+				<img width="100px" style="margin: -50px 0px;" alt="Google &quot;Google&quot; Logout" src="https://i.stack.imgur.com/I3NM6.png"/>
+			</a></li>
+			{% else %}
+			<li><a href="{%url 'social:begin' 'google-oauth2' %}" style="text-transform:none">
+			<img width="190px" style="margin: -45px 0px;" alt="Google &quot;Google&quot; Login" src="https://www.loqato.com/img/btn-login-googleplus.png"/>
+			</a></li>
+			{% endif %}
+		</ul>
+	</nav>
+	<div id="mobile-body-overly"></div>
+	<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div>
+</body>
+</html>
