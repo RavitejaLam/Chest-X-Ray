@@ -4,6 +4,7 @@ from django.urls import path
 from chestxray.views import *
 
 app_name="chestxray"
+
 urlpatterns = [
     path('index/',HomeView.as_view(),name="home"),
     path('about/',AboutView.as_view(),name="about"),
