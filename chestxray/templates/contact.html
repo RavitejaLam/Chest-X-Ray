@@ -49,7 +49,8 @@
 						<li><a href="{%url 'chestxray:contact' %}">Contact</a></li>
 						{% if user.is_authenticated %}
 						<li><a href="">{{ user.username }}</a></li>
-						<li><a href="">
+                            <li><a href="{% url 'chestxray:log' %}">Log</a></li>
+						<li><a href="{% url 'chestxray:logout' %}">
 							<img width="100px" style="margin: -50px 0px;" alt="Google &quot;Google&quot; Logout" src="https://i.stack.imgur.com/I3NM6.png"/>
 						</a></li>
 						{% else %}
@@ -219,7 +220,8 @@ Copyright ©<script>document.write(new Date().getFullYear());</script> All right
 			<li><a href="{%url 'chestxray:contact' %}">Contact</a></li>
 			{% if user.is_authenticated %}
 			<li><a href="">{{ user.username }}</a></li>
-			<li><a href="">
+                <li><a href="{% url 'chestxray:log' %}">Log</a></li>
+			<li><a href="{% url 'chestxray:logout' %}">
 				<img width="100px" style="margin: -50px 0px;" alt="Google &quot;Google&quot; Logout" src="https://i.stack.imgur.com/I3NM6.png"/>
 			</a></li>
 			{% else %}

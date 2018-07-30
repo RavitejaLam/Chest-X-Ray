@@ -49,7 +49,8 @@
 							<li><a href="{%url 'chestxray:contact' %}">Contact</a></li>
 							{% if user.is_authenticated %}
 							<li><a href="">{{ user.username }}</a></li>
-							<li><a href="account/logout?next={% url 'chestxray:home' %}">
+                                <li><a href="{% url 'chestxray:log' %}">Log</a></li>
+							<li><a href="{% url 'chestxray:logout' %}">
 								<img width="100px" style="margin: -50px 0px;" alt="Google &quot;Google&quot; Logout" src="https://i.stack.imgur.com/I3NM6.png"/>
 							</a></li>
 							{% else %}
@@ -82,29 +83,14 @@
 			<!-- Start user upload area -->
 			<section class="appointment-area">			
 				<div class="container">
-					<div >
-{#						<form class="form-wrap" enctype="multipart/form-data" method="POST" style="margin: 60px;">#}
-{#                            {% csrf_token %}#}
-{##}
-{#								<div class="input-group input-group-btn btn btn-default btn-file">#}
-{#									<input type="file" name="myfile" id="myfile" onchange="readURL(this);" />#}
-{#								</div>#}
-{##}
-{#                                <img id="blah" src="#" alt="your image" />#}
-{#                                {{ form.as_p }}#}
-{#							<br>#}
-{#							<button style="margin: 10px;" class="primary-btn text-uppercase">Get Result</button>#}
-{#							</center>#}
-{#						</form>#}
-                        <form method="POST" enctype="multipart/form-data">
-                          {% csrf_token %}
-                          <img id="blah" alt="Chest X-Ray Image" class="form-control" width="100" height="100" /><br/>
-                          <input type="file"   name="myfile" onchange="document.getElementById('blah').src = window.URL.createObjectURL(this.files[0])">
-                          {{ form.as_p }}
-                            <br/><br/>
-                          <input class="btn btn-primary" type="submit" value="Submit">
-                      </form>
-					</div>
+                    <form class="form-wrap" method="post" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <img id="blah" alt="X-Ray Image" class="form-control" width="100" height="100" /><br/>
+                        <input type="file"   name="myfile" onchange="document.getElementById('blah').src = window.URL.createObjectURL(this.files[0])">
+                        {{ form.as_p }}
+                        <br/><br/>
+                        <input class="btn btn-primary" type="submit" value="Submit">
+                    </form>
 				</div>	
 			</section>
 			<!-- End user upload area -->
@@ -223,7 +209,8 @@ Copyright ©<script>document.write(new Date().getFullYear());</script> All right
 			<li><a href="{%url 'chestxray:contact' %}">Contact</a></li>
 			{% if user.is_authenticated %}
 			<li><a href="">{{ user.username }}</a></li>
-			<li><a href="account/logout?next={% url 'chestxray:home' %}">
+                <li><a href="{% url 'chestxray:log' %}">Log</a></li>
+			<li><a href="{% url 'chestxray:logout' %}">
 				<img width="100px" style="margin: -50px 0px;" alt="Google &quot;Google&quot; Logout" src="https://i.stack.imgur.com/I3NM6.png"/>
 			</a></li>
 			{% else %}

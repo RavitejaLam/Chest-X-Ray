@@ -52,7 +52,7 @@ class LogoutView(View):
 class CreateTestingView(CreateView):
     model = Testing
     form_class = TestingForm
-    template_name = 'dummy.html'
+    template_name = 'chestxray.html'
 
     def get_context_data(self, **kwargs):
         context = super(CreateTestingView, self).get_context_data(**kwargs)
