@@ -131,9 +131,16 @@
 										<div class="thumb">
 											<img class="img-fluid" src="{% static "index_files/s1.jpg" %}" alt="">		
 										</div>
-										<a href="{%url 'chestxray:chestxray' %}">
+                                        {% if user.is_authenticated %}
+                                        <a href="{%url 'chestxray:chestxray' %}">
 											<h4 class="text-white">Chest x-Ray</h4>
-										</a>	
+										</a>
+                                        {% else %}
+                                        <a href="{%url 'social:begin' 'google-oauth2' %}?next={%  url 'chestxray:chestxray' %}" style="text-transform:none">
+											<h4 class="text-white">Chest x-Ray</h4>
+                                        </a>
+                                        {% endif %}
+
 										<p>
 											This Model involves the classification of given X-Ray images into 14 different disease classes and no disease class.
 										</p>

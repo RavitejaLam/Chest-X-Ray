@@ -12,6 +12,7 @@ urlpatterns = [
     path('team/',TeamView.as_view(),name="team"),
     path('contact/',ContactView.as_view(),name="contact"),
     path('gauth/',GauthView.as_view(),name="gauth"),
-    path('chestxray/',ChestxrayView.as_view(),name="chestxray"),
+    path('chestxray/',CreateTestingView.as_view(),name="chestxray"),
     url(r'^account/logout/$', LogoutView.as_view(), name="logout"),
+    url('log/',result,name="log"),
 ]

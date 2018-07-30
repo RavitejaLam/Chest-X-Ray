@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log</title>
+</head>
+<body>
+    {% for res in result %}
+          <center>
+          <div class="jumbotron" style="height: 180 px; width: 400px;">
+          Chest X-Ray img :<img src="{{ res.image.url }}" alt="img" class="img-responsive img-rounded" height="50" width="50" style="border-radius: 50%;"><br/>
+              View : {{ res.side }}<br/>
+          Uploaded on {{ res.submitted_on }}<br/>
+          <hr/>
+          </div>
+          </center>
+    {% endfor %}
+</body>
+</html>
