@@ -17,22 +17,22 @@
 		<!-- Site Title -->
 		<title>Home</title>
 
-		<link href="{% static "team_files/css.css" %}" rel="stylesheet">
+		<link href="{% static "history_files/css.css" %}" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 			<!--
 			CSS
 			============================================= -->
-			<link rel="stylesheet" href="{% static "team_files/linearicons.css"%}">
-			<link rel="stylesheet" href="{% static "team_files/font-awesome.css"%}">
-			<link rel="stylesheet" href="{% static "team_files/bootstrap.css"%}">
-			<link rel="stylesheet" href="{% static "team_files/magnific-popup.css"%}">
-			<link rel="stylesheet" href="{% static "team_files/jquery-ui.css"%}">
-			<link rel="stylesheet" href="{% static "team_files/nice-select.css"%}">
-			<link rel="stylesheet" href="{% static "team_files/animate.css"%}">
-			<link rel="stylesheet" href="{% static "team_files/owl.css"%}">
-			<link rel="stylesheet" href="{% static "team_files/jquery-ui.css"%}">
-			<link rel="stylesheet" href="{% static "team_files/main.css"%}">
-		<script type="text/javascript" charset="UTF-8" src="{% static "team_files/common.js" %}"></script><script type="text/javascript" charset="UTF-8" src="{% static "team_files/util.js" %}"></script><script type="text/javascript" charset="UTF-8" src="{% static "team_files/stats.js" %}"></script><script type="text/javascript" charset="UTF-8" src="{% static "team_files/AuthenticationService.Authenticate" %}"></script></head>
+			<link rel="stylesheet" href="{% static "history_files/linearicons.css"%}">
+			<link rel="stylesheet" href="{% static "history_files/font-awesome.css"%}">
+			<link rel="stylesheet" href="{% static "history_files/bootstrap.css"%}">
+			<link rel="stylesheet" href="{% static "history_files/magnific-popup.css"%}">
+			<link rel="stylesheet" href="{% static "history_files/jquery-ui.css"%}">
+			<link rel="stylesheet" href="{% static "history_files/nice-select.css"%}">
+			<link rel="stylesheet" href="{% static "history_files/animate.css"%}">
+			<link rel="stylesheet" href="{% static "history_files/owl.css"%}">
+			<link rel="stylesheet" href="{% static "history_files/jquery-ui.css"%}">
+			<link rel="stylesheet" href="{% static "history_files/main.css"%}">
+		<script type="text/javascript" charset="UTF-8" src="{% static "history_files/common.js" %}"></script><script type="text/javascript" charset="UTF-8" src="{% static "history_files/util.js" %}"></script><script type="text/javascript" charset="UTF-8" src="{% static "history_files/stats.js" %}"></script><script type="text/javascript" charset="UTF-8" src="{% static "history_files/AuthenticationService.Authenticate" %}"></script></head>
 		<body style="display: block;"><button type="button" id="mobile-nav-toggle"><i class="lnr lnr-menu"></i></button>
 		  <header id="header">
 		    <div class="container main-menu">
@@ -51,7 +51,7 @@
 						<li><a href="">{{ user.username }}</a></li>
                             <li><a href="{% url 'chestxray:log' %}">Log</a></li>
 						<li><a href="{% url 'chestxray:logout' %}>
-							<img width="100px" style="margin: -50px 0px;" alt="Google &quot;Google&quot; Logout" src="https://i.stack.imgur.com/I3NM6.png"/>
+							<img width="100" style="margin: -50px 0px;" alt="Google &quot;Google&quot; Logout" src="https://i.stack.imgur.com/I3NM6.png"/>
 						</a></li>
 						{% else %}
 						<li><a href="{% url 'social:begin' 'google-oauth2' %}" style="text-transform:none">
@@ -80,21 +80,24 @@
 			</section>
 			<!-- End banner Area -->
 
-			<div style="margin: 20px; padding: 0px;">
+			<div class="row" align="center" style="margin: 50x; padding: 0px;">
                 {% for res in result %}
-                      <center>
-                      <div class="jumbotron" style="height: 180 px; width: 400px; padding: 10px;">
+                      <div class="jumbotron col-lg-3" align="center" style="margin: 75px; padding: 20px;">
                           <div class="row">
-                              <div class="col-lg-6">
-                                  View Type: {{ res.side }}<br/>
-                                  Uploaded on {{ res.submitted_on }}
-                              </div>
+                              <div class="col-lg-6" align="center">
+                              View Type: <strong>{{ res.side }}</strong><br/>
+                              Uploaded on: <strong>{{ res.submitted_on }}</strong><br/><br>
+                              {% if res.description == "Image contains Apple Logo" %}
+                                  <strong>Apple Logo</strong>: <img src="{% static "history_files/correct.gif" %}" height="100">
+                              {%  else %}
+                                <strong>Apple Logo</strong>: <img src="{% static "history_files/wrong.gif" %}" height="100">
+                              {% endif %}
+                          </div>
                               <div class="col-lg-6" style="padding: 1px;">
-                                  Chest X-Ray img :<img src="{{ res.image.url }}" alt="img" class="img-responsive img-rounded" height="160" width="120" style="border-radius: 2%;"><br/>
+                                  <img src="{{ res.image.url }}" alt="img" class="img-responsive img-rounded" height="160" width="120" style="border-radius: 2%;"><br/>
                               </div>
                           </div>
                       </div>
-                      </center>
                 {% endfor %}
             </div>
 
@@ -160,21 +163,21 @@ Copyright ©<script>document.write(new Date().getFullYear());</script> All right
 			<!-- End footer Area -->
 
 
-			<script src="{% static "team_files/jquery-2.js" %}"></script>
-			<script src="{% static "team_files/popper.js" %}"></script>
-			<script src="{% static "team_files/bootstrap.js" %}"></script>
-			<script src="{% static "team_files/js" %}"></script>
- 			<script src="{% static "team_files/jquery-ui.js" %}"></script>
-  			<script src="{% static "team_files/easing.js" %}"></script>
-			<script src="{% static "team_files/hoverIntent.js" %}"></script>
-			<script src="{% static "team_files/superfish.js" %}"></script>
-			<script src="{% static "team_files/jquery_003.js" %}"></script>
-			<script src="{% static "team_files/jquery.js" %}"></script>
-    		<script src="{% static "team_files/jquery_004.js" %}"></script>
-			<script src="{% static "team_files/jquery_002.js" %}"></script>
-			<script src="{% static "team_files/owl.js" %}"></script>
-			<script src="{% static "team_files/mail-script.js" %}"></script>
-			<script src="{% static "team_files/main.js" %}"></script>
+			<script src="{% static "history_files/jquery-2.js" %}"></script>
+			<script src="{% static "history_files/popper.js" %}"></script>
+			<script src="{% static "history_files/bootstrap.js" %}"></script>
+			<script src="{% static "history_files/js" %}"></script>
+ 			<script src="{% static "history_files/jquery-ui.js" %}"></script>
+  			<script src="{% static "history_files/easing.js" %}"></script>
+			<script src="{% static "history_files/hoverIntent.js" %}"></script>
+			<script src="{% static "history_files/superfish.js" %}"></script>
+			<script src="{% static "history_files/jquery_003.js" %}"></script>
+			<script src="{% static "history_files/jquery.js" %}"></script>
+    		<script src="{% static "history_files/jquery_004.js" %}"></script>
+			<script src="{% static "history_files/jquery_002.js" %}"></script>
+			<script src="{% static "history_files/owl.js" %}"></script>
+			<script src="{% static "history_files/mail-script.js" %}"></script>
+			<script src="{% static "history_files/main.js" %}"></script>
 
 
 <script src="https://use.fontawesome.com/18c6714091.js"></script>
