@@ -87,15 +87,16 @@
                       <div class="row">
                           <div class="col-lg-6">
                               View Type: <strong>{{ res.side }}</strong><br/>
-                              Uploaded on: <strong>{{ res.submitted_on }}</strong><br/><br>
+                              Uploaded on: <strong>{{ res.submitted_on }}</strong><br/>
                               {% if res.description == "Image contains Apple Logo" %}
-                                  <strong>Apple Logo</strong>: <img src="{% static "result_files/correct.gif" %}" height="100">
+                                  <strong>Apple Logo</strong>: <img src="{% static "result_files/correct.gif" %}" height="100"><br>
                               {%  else %}
-                                <strong>Apple Logo</strong>: <img src="{% static "result_files/wrong.gif" %}" height="100">
+                                <strong>Apple Logo</strong>: <img src="{% static "result_files/wrong.gif" %}" height="100"><br>
                               {% endif %}
+                            <a class="btn btn-primary" href="{% url 'chestxray:mail' res.id %}">Send Mail</a>
                           </div>
                           <div class="col-lg-6" style="padding: 1px;">
-                              Chest X-Ray img :<img src="{{ res.image.url }}" alt="Image" class="img-responsive img-rounded" height="160" width="120" style="border-radius: 2%;"><br/>
+                              Chest X-Ray img :<img src="{{ res.image.url }}" alt="Image" class="img-responsive img-rounded" height="160" width="120" style="border-radius: 8%;"><br/>
                           </div>
                       </div>
                   </div>

@@ -15,5 +15,6 @@ urlpatterns = [
     path('chestxray/',CreateTestingView.as_view(),name="chestxray"),
     url(r'~/account/logout/?next=/', LogoutView.as_view(), name="logout"),
     url('log/',log,name="log"),
+    path('mail/<int:pk>/',mailing,name="mail"),
     path('result/<int:pk>/view/',result,name="result"),
 ]

@@ -1,4 +1,6 @@
 import datetime
+
+from chestxray.mail import sendmail
 from medical.settings import model
 
 from django.contrib.auth.mixins import LoginRequiredMixin
@@ -92,6 +94,11 @@ def log(request):
     test_result = Testing.objects.filter(user=request.user)
     context_dict['result'] = test_result
     return render(request, 'history.html', context_dict)
+
+def mailing(request,pk):
+    out = Testing.objects.get(id=pk)
+    sendmail(request.user,out)
+    return redirect('chestxray:result', out.id)
 
 def result(request,pk):
     context_dict={}

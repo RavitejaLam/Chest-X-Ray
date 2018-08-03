@@ -15,6 +15,7 @@ class Testing(models.Model):
     gender = models.CharField(max_length=8)
     submitted_on = models.DateField(("Date"),blank=True)
     description = models.TextField(max_length=2048,blank=True)
+
     user = models.ForeignKey(User,on_delete=models.CASCADE)
     def __str__(self):
         return self.user.first_name

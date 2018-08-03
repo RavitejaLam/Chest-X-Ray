@@ -3,7 +3,6 @@ from keras.preprocessing import image
 from medical import settings as sett
 import os
 
-
 def predict_image(path):
     test_image = image.load_img(path, target_size=(64, 64))
     test_image = image.img_to_array(test_image)
