@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64226ee1-ae1b-45a6-823a-9f03032fd7b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chestxray/mail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chestxray/templates/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chestxray/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/chestxray/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chestxray/reports.py" beforeDir="false" afterPath="$PROJECT_DIR$/chestxray/reports.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chestxray/templates/chestxray.html" beforeDir="false" afterPath="$PROJECT_DIR$/chestxray/templates/chestxray.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chestxray/templates/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/chestxray/templates/history.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chestxray/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/chestxray/templates/result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chestxray/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/chestxray/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chestxray/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/chestxray/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chestxray/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chestxray/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chestxray/templates/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/chestxray/templates/team.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,29 +22,29 @@
     <session id="115230855">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1552" />
+          <entry key="html" value="1573" />
           <entry key="py" value="1562" />
           <entry key="txt" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1552" />
+          <entry key="HTML" value="1573" />
           <entry key="PLAIN_TEXT" value="68" />
           <entry key="Python" value="1562" />
         </counts>
@@ -74,11 +66,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chestxray/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="440">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -87,13 +79,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chestxray/reports.py">
+        <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="308">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -101,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chestxray/templates/team.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2882">
-              <caret line="131" column="40" selection-start-line="131" selection-start-column="40" selection-end-line="131" selection-end-column="40" />
+            <state relative-caret-position="741">
+              <caret line="127" column="36" selection-start-line="127" selection-start-column="36" selection-end-line="127" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -146,11 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chestxray/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="968">
-              <caret line="44" column="16" selection-end-line="348" selection-end-column="7" />
+            <state relative-caret-position="242">
+              <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -205,9 +194,7 @@
         <option value="$PROJECT_DIR$/chestxray/templates/dummy.html" />
         <option value="$PROJECT_DIR$/chestxray/templates/about.html" />
         <option value="$PROJECT_DIR$/chestxray/templates/contact.html" />
-        <option value="$PROJECT_DIR$/chestxray/templates/index.html" />
         <option value="$PROJECT_DIR$/chestxray/templates/models.html" />
-        <option value="$PROJECT_DIR$/chestxray/templates/team.html" />
         <option value="$PROJECT_DIR$/medical/settings.py" />
         <option value="$PROJECT_DIR$/chestxray/views.py" />
         <option value="$PROJECT_DIR$/chestxray/urls.py" />
@@ -218,6 +205,9 @@
         <option value="$PROJECT_DIR$/chestxray/templates/chestxray.html" />
         <option value="$PROJECT_DIR$/chestxray/reports.py" />
         <option value="$PROJECT_DIR$/chestxray/models.py" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/chestxray/templates/team.html" />
+        <option value="$PROJECT_DIR$/chestxray/templates/index.html" />
       </list>
     </option>
   </component>
@@ -379,7 +369,7 @@
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16546762" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16712783" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -403,12 +393,12 @@
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.160487" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16712783" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -419,6 +409,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -439,13 +430,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="model completed" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chestxray/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -498,8 +482,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chestxray/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="440">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -513,13 +497,6 @@
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chestxray/templates/team.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2882">
-          <caret line="131" column="40" selection-start-line="131" selection-start-column="40" selection-end-line="131" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -554,13 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chestxray/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="44" column="16" selection-end-line="348" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chestxray/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5148">
@@ -575,6 +545,27 @@
           <folding>
             <element signature="e#308#317#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chestxray/templates/team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="127" column="36" selection-start-line="127" selection-start-column="36" selection-end-line="127" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chestxray/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
         </state>
       </provider>
     </entry>
