@@ -1,1 +1,1 @@
-web: gunicorn chestxray.wsgi
+web: gunicorn medical.wsgi
