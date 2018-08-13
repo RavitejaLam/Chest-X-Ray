@@ -1,1 +1,1 @@
-web: gunicorn chestxray.wsgi --log-file -
+web: gunicorn chestxray.wsgi
