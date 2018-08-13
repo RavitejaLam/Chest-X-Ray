@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64226ee1-ae1b-45a6-823a-9f03032fd7b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/chestxray/mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/chestxray/mail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medical/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/medical/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,19 +24,19 @@
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.14" value="3" />
+          <entry key="project.open.time.14" value="4" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="1573" />
-          <entry key="py" value="1578" />
+          <entry key="py" value="1579" />
           <entry key="txt" value="68" />
         </counts>
       </usages-collector>
@@ -44,7 +44,7 @@
         <counts>
           <entry key="HTML" value="1573" />
           <entry key="PLAIN_TEXT" value="68" />
-          <entry key="Python" value="1578" />
+          <entry key="Python" value="1579" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -88,7 +88,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chestxray/templates/team.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18">
+            <state relative-caret-position="4950">
               <caret line="225" column="41" selection-start-line="225" selection-start-column="41" selection-end-line="225" selection-end-column="41" />
             </state>
           </provider>
@@ -103,10 +103,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chestxray/mail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="531">
               <caret line="136" column="28" selection-start-line="136" selection-start-column="28" selection-end-line="136" selection-end-column="28" />
               <folding>
                 <marker date="1534165577371" expanded="true" signature="23:24" ph="..." />
@@ -136,7 +136,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chestxray/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="1100">
               <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
             </state>
           </provider>
@@ -151,11 +151,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/medical/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="-115">
+              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
               <folding>
                 <element signature="e#308#317#0" expanded="true" />
               </folding>
@@ -193,7 +193,6 @@
         <option value="$PROJECT_DIR$/chestxray/templates/about.html" />
         <option value="$PROJECT_DIR$/chestxray/templates/contact.html" />
         <option value="$PROJECT_DIR$/chestxray/templates/models.html" />
-        <option value="$PROJECT_DIR$/medical/settings.py" />
         <option value="$PROJECT_DIR$/chestxray/views.py" />
         <option value="$PROJECT_DIR$/chestxray/urls.py" />
         <option value="$PROJECT_DIR$/chestxray/templates/result.html" />
@@ -206,6 +205,7 @@
         <option value="$PROJECT_DIR$/chestxray/templates/team.html" />
         <option value="$PROJECT_DIR$/chestxray/templates/index.html" />
         <option value="$PROJECT_DIR$/chestxray/mail.py" />
+        <option value="$PROJECT_DIR$/medical/settings.py" />
       </list>
     </option>
   </component>
@@ -226,6 +226,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,11 +245,15 @@
               <item name="chestxray" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="medical" type="b2602c69:ProjectViewProjectNode" />
+              <item name="medical" type="462c0819:PsiDirectoryNode" />
+              <item name="medical" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -367,7 +372,7 @@
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16712783" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16878805" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -482,9 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -502,6 +504,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chestxray/templates/team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4950">
+          <caret line="225" column="41" selection-start-line="225" selection-start-column="41" selection-end-line="225" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -526,6 +535,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chestxray/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chestxray/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5148">
@@ -533,36 +549,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medical/settings.py">
+    <entry file="file://$PROJECT_DIR$/chestxray/mail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="531">
+          <caret line="136" column="28" selection-start-line="136" selection-start-column="28" selection-end-line="136" selection-end-column="28" />
           <folding>
-            <element signature="e#308#317#0" expanded="true" />
+            <marker date="1534165577371" expanded="true" signature="23:24" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chestxray/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/medical/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chestxray/templates/team.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="225" column="41" selection-start-line="225" selection-start-column="41" selection-end-line="225" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chestxray/mail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="136" column="28" selection-start-line="136" selection-start-column="28" selection-end-line="136" selection-end-column="28" />
+        <state relative-caret-position="-115">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
           <folding>
-            <marker date="1534165577371" expanded="true" signature="23:24" ph="..." />
+            <element signature="e#308#317#0" expanded="true" />
           </folding>
         </state>
       </provider>
