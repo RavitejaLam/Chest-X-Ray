@@ -200,7 +200,5 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
-STATIC_URL = '/static/'
-
 model = load_model("./pretrained_model/model.h5")
 graph = tf.get_default_graph()
