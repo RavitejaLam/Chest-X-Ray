@@ -119,16 +119,36 @@ SOCIAL_AUTH_GOOGLE_PLUS_SCOPE = [
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'home'
 
+# STATIC_URL = '/static/'
+# PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+# STATIC_ROOT = os.path.join(PROJECT_PATH, 'assets')
+# STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+# # STATIC_PATH=os.path.join(PROJECT_PATH,'static')
+# STATICFILES_DIRS = (
+#     os.path.join(BASE_DIR, 'static'),
+#     )
+#
+# MEDIA_URL = '/media/'
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/2.0/howto/static-files/
+
+
 STATIC_URL = '/static/'
+
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
-STATIC_ROOT = os.path.join(PROJECT_PATH, 'assets')
-# STATIC_PATH=os.path.join(PROJECT_PATH,'static')
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-    )
+
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
+
+STATIC_DIR = os.path.join(BASE_DIR, 'static')
+
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 WSGI_APPLICATION = 'medical.wsgi.application'
 
