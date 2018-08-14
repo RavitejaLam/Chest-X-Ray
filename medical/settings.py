@@ -137,7 +137,7 @@ LOGIN_REDIRECT_URL = 'home'
 
 STATIC_URL = '/static/'
 
-PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = "chestxray/static/"
 
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 

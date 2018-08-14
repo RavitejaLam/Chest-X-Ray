@@ -2,6 +2,392 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64226ee1-ae1b-45a6-823a-9f03032fd7b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/AuthenticationService.Authenticate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/about-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/hoverIntent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/jquery-2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/jquery_002.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/jquery_003.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/jquery_004.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/l1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/l2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/l3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/l4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/l5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/linearicons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/mail-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/nice-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/owl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/owl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/play-btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/r2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/stats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/superfish.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/t1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/t2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/t3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/t4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/about_files/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/hoverIntent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/jquery-2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/jquery_002.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/jquery_003.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/jquery_004.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/l1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/l2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/l3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/l4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/l5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/linearicons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/mail-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/nice-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/owl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/owl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/play-btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/r2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/s1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/s2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/stats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/superfish.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/chestxray_files/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/AuthenticationService.Authenticate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/QuotaService.RecordEvent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/ViewportInfoService.GetViewportInfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/controls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/css_002.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/google_gray.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/google_white5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/hoverIntent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/jquery-2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/jquery_002.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/jquery_003.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/jquery_004.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/linearicons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/mail-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/mapcnt6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/marker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/nice-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/onion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/owl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/owl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/spotlight-poi2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/stats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/superfish.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/sv9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/tmapctrl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/tmapctrl4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/vt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/vt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/vt_002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/vt_002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/vt_003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/vt_004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/vt_005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/vt_006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/vt_007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/vt_008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/vt_009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/vt_010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/vt_011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/vt_012.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/vt_013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/vt_014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/contact_files/vt_015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/AuthenticationService.Authenticate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/QuotaService.RecordEvent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/ViewportInfoService.GetViewportInfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/controls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/correct.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/css_002.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/google_gray.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/google_white5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/hoverIntent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/jquery-2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/jquery_002.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/jquery_003.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/jquery_004.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/linearicons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/mail-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/mapcnt6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/marker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/nice-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/onion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/owl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/owl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/spotlight-poi2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/stats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/superfish.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/sv9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/tmapctrl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/tmapctrl4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/vt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/vt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/vt_002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/vt_002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/vt_003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/vt_004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/vt_005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/vt_006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/vt_007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/vt_008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/vt_009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/vt_010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/vt_011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/vt_012.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/vt_013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/vt_014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/vt_015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/history_files/wrong.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/AuthenticationService.Authenticate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/b1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/b2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/b3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/hoverIntent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/jquery-2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/jquery_002.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/jquery_003.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/jquery_004.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/l1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/l2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/l3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/l4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/l5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/linearicons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/mail-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/nice-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/owl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/owl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/play-btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/r1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/s1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/s2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/stats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/superfish.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/t2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/t3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/index_files/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/hoverIntent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/jquery-2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/jquery_002.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/jquery_003.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/jquery_004.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/l1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/l2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/l3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/l4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/l5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/linearicons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/mail-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/nice-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/owl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/owl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/play-btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/r2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/s1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/s2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/stats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/superfish.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/models_files/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/18c6714091.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/18c6714091.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/512px-Google_G_Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/Untitled-drawing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/analytics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/common_002.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/correct.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/google_button_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/hoverIntent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/jquery-2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/jquery_002.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/jquery_003.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/jquery_004.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/js.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/linearicons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/mail-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/nice-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/owl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/owl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/stats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/stats_002.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/superfish.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/util_002.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/result_files/wrong.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/AuthenticationService.Authenticate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/hoverIntent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/jquery-2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/jquery_002.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/jquery_003.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/jquery_004.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/l1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/l2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/l3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/l4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/l5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/linearicons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/mail-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/nice-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/owl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/owl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/play-btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/r2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/stats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/superfish.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/t1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/t2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/t3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/t4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/staticfiles/team_files/util.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/medical/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/medical/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +423,7 @@
         <counts>
           <entry key="Procfile" value="8" />
           <entry key="html" value="1573" />
-          <entry key="py" value="1588" />
+          <entry key="py" value="1611" />
           <entry key="txt" value="68" />
         </counts>
       </usages-collector>
@@ -45,7 +431,7 @@
         <counts>
           <entry key="HTML" value="1573" />
           <entry key="PLAIN_TEXT" value="76" />
-          <entry key="Python" value="1588" />
+          <entry key="Python" value="1611" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -137,8 +523,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/medical/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="348">
+              <caret line="139" column="16" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="16" />
               <folding>
                 <element signature="e#308#317#0" expanded="true" />
               </folding>
@@ -262,7 +648,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/ravitejalam/medical/medical/settings.py&#10;sett&#9;FILE&#9;file:///home/ravitejalam/medical/medical/settings.py&#10;team&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/team.html&#10;chest&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/chestxray.html&#10;history.&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/history.html&#10;res&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/result.html&#10;about&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/about.html&#10;inde&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/index.html&#10;resu&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/result.html&#10;history.html&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/history.html&#10;re&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/result.html&#10;repo&#9;null&#9;null&#10;urls&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/urls.py&#10;models.p&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/models.py&#10;view&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/views.py&#10;url&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/urls.py&#10;history.h&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/history.html&#10;ind&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/index.html&#10;team.&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/team.html&#10;se&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="se&#9;FILE&#9;file:///home/ravitejalam/medical/medical/settings.py&#10;in&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/index.html&#10;sett&#9;FILE&#9;file:///home/ravitejalam/medical/medical/settings.py&#10;team&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/team.html&#10;chest&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/chestxray.html&#10;history.&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/history.html&#10;res&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/result.html&#10;about&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/about.html&#10;inde&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/index.html&#10;resu&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/result.html&#10;history.html&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/history.html&#10;re&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/result.html&#10;repo&#9;null&#9;null&#10;urls&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/urls.py&#10;models.p&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/models.py&#10;view&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/views.py&#10;url&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/urls.py&#10;history.h&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/history.html&#10;ind&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/index.html&#10;team.&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/team.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -491,6 +877,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -539,13 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chestxray/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chestxray/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5148">
@@ -577,10 +959,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chestxray/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/medical/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="348">
+          <caret line="139" column="16" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="16" />
           <folding>
             <element signature="e#308#317#0" expanded="true" />
           </folding>
