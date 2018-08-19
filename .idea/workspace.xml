@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64226ee1-ae1b-45a6-823a-9f03032fd7b7" name="Default Changelist" comment="" />
+    <list default="true" id="64226ee1-ae1b-45a6-823a-9f03032fd7b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/chestxray/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chestxray/templates/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,25 +26,25 @@
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="5" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.18" value="3" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Procfile" value="8" />
-          <entry key="html" value="1576" />
+          <entry key="html" value="1594" />
           <entry key="py" value="1775" />
           <entry key="txt" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1576" />
+          <entry key="HTML" value="1594" />
           <entry key="PLAIN_TEXT" value="76" />
           <entry key="Python" value="1775" />
         </counts>
@@ -51,6 +53,7 @@
         <counts>
           <entry key="Procfile" value="1" />
           <entry key="html" value="21" />
+          <entry key="ico" value="1" />
           <entry key="py" value="18" />
           <entry key="txt" value="1" />
         </counts>
@@ -58,6 +61,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="21" />
+          <entry key="Image" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Python" value="18" />
         </counts>
@@ -67,18 +71,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chestxray/mail.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2992">
-              <caret line="136" column="28" selection-start-line="136" selection-start-column="28" selection-end-line="136" selection-end-column="28" />
-              <folding>
-                <marker date="1534165577371" expanded="true" signature="23:24" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chestxray/templates/history.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,11 +89,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chestxray/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1628">
-              <caret line="74" column="44" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
+            <state relative-caret-position="242">
+              <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+              <folding>
+                <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/medical/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
+            <state relative-caret-position="440">
+              <caret line="142" selection-start-line="142" selection-end-line="142" />
               <folding>
                 <element signature="e#308#317#0" expanded="true" />
               </folding>
@@ -130,7 +125,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chestxray/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
+            <state relative-caret-position="352">
               <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -142,7 +137,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/medical/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
+            <state relative-caret-position="550">
               <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
             </state>
           </provider>
@@ -185,6 +180,7 @@
       <find>allow_host</find>
       <find>Staticfiles_</find>
       <find>base_dir</find>
+      <find>favicon</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -209,10 +205,10 @@
         <option value="$PROJECT_DIR$/chestxray/templates/team.html" />
         <option value="$PROJECT_DIR$/chestxray/mail.py" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/chestxray/templates/index.html" />
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/medical/settings.py" />
         <option value="$PROJECT_DIR$/chestxray/urls.py" />
+        <option value="$PROJECT_DIR$/chestxray/templates/index.html" />
       </list>
     </option>
   </component>
@@ -222,11 +218,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="993" />
-    <option name="y" value="25" />
-    <option name="width" value="927" />
-    <option name="height" value="1055" />
+    <option name="y" value="27" />
+    <option name="width" value="917" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -265,7 +261,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="ur&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/urls.py&#10;set&#9;FILE&#9;file:///home/ravitejalam/medical/medical/settings.py&#10;mana&#9;FILE&#9;file:///home/ravitejalam/medical/manage.py&#10;inde&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/index.html&#10;se&#9;FILE&#9;file:///home/ravitejalam/medical/medical/settings.py&#10;in&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/index.html&#10;sett&#9;FILE&#9;file:///home/ravitejalam/medical/medical/settings.py&#10;team&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/team.html&#10;chest&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/chestxray.html&#10;history.&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/history.html&#10;res&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/result.html&#10;about&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/about.html&#10;resu&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/result.html&#10;history.html&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/history.html&#10;re&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/result.html&#10;repo&#9;null&#9;null&#10;urls&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/urls.py&#10;models.p&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/models.py&#10;view&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/views.py&#10;url&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/urls.py&#10;history.h&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/history.html&#10;ind&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/index.html&#10;team.&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/team.html" />
+    <property name="SearchEverywhereHistoryKey" value="favicon.&#9;FILE&#9;file:///home/ravitejalam/.local/lib/python3.6/site-packages/notebook/static/favicon.ico&#10;ur&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/urls.py&#10;set&#9;FILE&#9;file:///home/ravitejalam/medical/medical/settings.py&#10;mana&#9;FILE&#9;file:///home/ravitejalam/medical/manage.py&#10;inde&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/index.html&#10;se&#9;FILE&#9;file:///home/ravitejalam/medical/medical/settings.py&#10;in&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/index.html&#10;sett&#9;FILE&#9;file:///home/ravitejalam/medical/medical/settings.py&#10;team&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/team.html&#10;chest&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/chestxray.html&#10;history.&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/history.html&#10;res&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/result.html&#10;about&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/about.html&#10;resu&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/result.html&#10;history.html&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/history.html&#10;re&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/result.html&#10;repo&#9;null&#9;null&#10;urls&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/urls.py&#10;models.p&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/models.py&#10;view&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/views.py&#10;url&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/urls.py&#10;history.h&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/history.html&#10;ind&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/index.html&#10;team.&#9;FILE&#9;file:///home/ravitejalam/medical/chestxray/templates/team.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -376,9 +372,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="993" y="25" width="927" height="1055" extended-state="4" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20431328" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20641948" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -392,7 +389,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -540,17 +537,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chestxray/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1628">
-          <caret line="74" column="44" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chestxray/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5148">
           <caret line="234" column="8" selection-start-line="234" selection-start-column="8" selection-end-line="234" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chestxray/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medical/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -568,29 +575,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chestxray/urls.py">
+    <entry file="file://$PROJECT_DIR$/medical/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="440">
+          <caret line="142" selection-start-line="142" selection-end-line="142" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#308#317#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medical/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-        </state>
-      </provider>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/notebook/static/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/medical/settings.py">
+    <entry file="file://$PROJECT_DIR$/chestxray/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
+        <state relative-caret-position="242">
+          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
           <folding>
-            <element signature="e#308#317#0" expanded="true" />
+            <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
