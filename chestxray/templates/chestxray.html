@@ -20,27 +20,27 @@
     <!-- Site Title -->
     <title>Home</title>
 
-    <link href="{% static "chestxray_files/css.css" %}" rel="stylesheet">
+    <link href="{% static "all_files/css.css" %}" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
           integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <!--
     CSS
     ============================================= -->
-    <link rel="stylesheet" href="{% static "chestxray_files/linearicons.css" %}">
-    <link rel="stylesheet" href="{% static "chestxray_files/font-awesome.css" %}">
-    <link rel="stylesheet" href="{% static "chestxray_files/bootstrap.css" %}">
-    <link rel="stylesheet" href="{% static "chestxray_files/magnific-popup.css" %}">
-    <link rel="stylesheet" href="{% static "chestxray_files/jquery-ui.css" %}">
-    <link rel="stylesheet" href="{% static "chestxray_files/nice-select.css" %}">
-    <link rel="stylesheet" href="{% static "chestxray_files/animate.css" %}">
-    <link rel="stylesheet" href="{% static "chestxray_files/owl.css" %}">
-    <link rel="stylesheet" href="{% static "chestxray_files/jquery-ui.css" %}">
-    <link rel="stylesheet" href="{% static "chestxray_files/main.css" %}">
-    <script type="text/javascript" charset="UTF-8" src="{% static "chestxray_files/common.js" %}"></script>
-    <script type="text/javascript" charset="UTF-8" src="{% static "chestxray_files/util.js" %}"></script>
-    <script type="text/javascript" charset="UTF-8" src="{% static "chestxray_files/stats.js" %}"></script>
+    <link rel="stylesheet" href="{% static "all_files/linearicons.css" %}">
+    <link rel="stylesheet" href="{% static "all_files/font-awesome.css" %}">
+    <link rel="stylesheet" href="{% static "all_files/bootstrap.css" %}">
+    <link rel="stylesheet" href="{% static "all_files/magnific-popup.css" %}">
+    <link rel="stylesheet" href="{% static "all_files/jquery-ui.css" %}">
+    <link rel="stylesheet" href="{% static "all_files/nice-select.css" %}">
+    <link rel="stylesheet" href="{% static "all_files/animate.css" %}">
+    <link rel="stylesheet" href="{% static "all_files/owl.css" %}">
+    <link rel="stylesheet" href="{% static "all_files/jquery-ui.css" %}">
+    <link rel="stylesheet" href="{% static "all_files/main.css" %}">
+    <script type="text/javascript" charset="UTF-8" src="{% static "all_files/common.js" %}"></script>
+    <script type="text/javascript" charset="UTF-8" src="{% static "all_files/util.js" %}"></script>
+    <script type="text/javascript" charset="UTF-8" src="{% static "all_files/stats.js" %}"></script>
     <script type="text/javascript" charset="UTF-8"
-            src="{% static "chestxray_files/AuthenticationService.Authenticate" %}"></script>
+            src="{% static "all_files/AuthenticationService.Authenticate" %}"></script>
 </head>
 <body style="display: block;">
 <button type="button" id="mobile-nav-toggle"><i class="lnr lnr-menu"></i></button>
@@ -60,19 +60,16 @@
                     <li><a href="{% url 'chestxray:team' %}">Team</a></li>
                     <li><a href="{% url 'chestxray:contact' %}">Contact</a></li>
                     {% if user.is_authenticated %}
-                        <li><a href="">{{ user.username }}</a></li>
-                        <li><a href="{% url 'chestxray:log' %}">Log</a></li>
-                        <li><a href="{% url 'chestxray:logout' %}">
-                            <img width="100px" style="margin: -50px 0px;" alt="Google &quot;Google&quot; Logout"
-                                 src="https://i.stack.imgur.com/I3NM6.png"/>
-                        </a></li>
-                    {% else %}
-                        <li><a href="{% url 'social:begin' 'google-oauth2' %}" style="text-transform:none">
-                            <img width="190px" style="margin: -45px 0px;" alt="Google &quot;Google&quot; Login"
-                                 src="https://www.loqato.com/img/btn-login-googleplus.png"/>
-                        </a></li>
-                    {% endif %}
-                </ul>
+                            <li><a href="">{{ user.username }}</a></li>
+                                <li><a href="{% url 'chestxray:log' %}">Log</a></li>
+                            <li><a href="{% url 'chestxray:logout' %}">
+                                <img width="100px" style="margin: -50px 0px;" alt="Google &quot;Google&quot; Logout" src="{% static "all_files/logout.png" %}"/>
+                            </a></li>
+                            {% else %}
+                            <li><a href="{%url 'social:begin' 'google-oauth2' %}" style="text-transform:none">
+                            <img width="190px" style="margin: -45px 0px;" alt="Google &quot;Google&quot; Login" src="{% static "all_files/login.png" %}"/>
+                            </a></li>
+                            {% endif %}
             </nav><!-- #nav-menu-container -->
         </div>
     </div>
@@ -87,8 +84,7 @@
                 <h1 class="text-white">
                     Chest X-Ray
                 </h1>
-                <p class="text-white link-nav"><a href="{% url 'chestxray:home' %}">Home </a> <span
-                        class="lnr lnr-arrow-right"></span> <a href="{% url 'chestxray:chestxray' %}"> Chest X-Ray</a>
+                <p class="text-white link-nav"><a href="{% url 'chestxray:home' %}">Home </a> <i class="fas fa-arrow-right"></i> <a href="{% url 'chestxray:chestxray' %}"> Chest X-Ray</a>
                 </p>
             </div>
         </div>
@@ -155,8 +151,7 @@
                                 </div>
 
                                 <div class="col-lg-4 col-md-12">
-                                    <button class="nw-btn primary-btn circle">Subscribe<span
-                                            class="lnr lnr-arrow-right"></span></button>
+                                    <button class="nw-btn primary-btn circle">Subscribe</button>
                                 </div>
                             </div>
                             <div class="info"></div>
@@ -186,21 +181,21 @@
 <!-- End footer Area -->
 
 
-<script src="{% static "chestxray_files/jquery-2.js" %}"></script>
-<script src="{% static "chestxray_files/popper.js" %}"></script>
-<script src="{% static "chestxray_files/bootstrap.js" %}"></script>
-<script src="{% static "chestxray_files/js" %}"></script>
-<script src="{% static "chestxray_files/jquery-ui.js" %}"></script>
-<script src="{% static "chestxray_files/easing.js" %}"></script>
-<script src="{% static "chestxray_files/hoverIntent.js" %}"></script>
-<script src="{% static "chestxray_files/superfish.js" %}"></script>
-<script src="{% static "chestxray_files/jquery_003.js" %}"></script>
-<script src="{% static "chestxray_files/jquery.js" %}"></script>
-<script src="{% static "chestxray_files/jquery_004.js" %}"></script>
-<script src="{% static "chestxray_files/jquery_002.js" %}"></script>
-<script src="{% static "chestxray_files/owl.js" %}"></script>
-<script src="{% static "chestxray_files/mail-script.js" %}"></script>
-<script src="{% static "chestxray_files/main.js" %}"></script>
+<script src="{% static "all_files/jquery-2.js" %}"></script>
+<script src="{% static "all_files/popper.js" %}"></script>
+<script src="{% static "all_files/bootstrap.js" %}"></script>
+<script src="{% static "all_files/js" %}"></script>
+<script src="{% static "all_files/jquery-ui.js" %}"></script>
+<script src="{% static "all_files/easing.js" %}"></script>
+<script src="{% static "all_files/hoverIntent.js" %}"></script>
+<script src="{% static "all_files/superfish.js" %}"></script>
+<script src="{% static "all_files/jquery_003.js" %}"></script>
+<script src="{% static "all_files/jquery.js" %}"></script>
+<script src="{% static "all_files/jquery_004.js" %}"></script>
+<script src="{% static "all_files/jquery_002.js" %}"></script>
+<script src="{% static "all_files/owl.js" %}"></script>
+<script src="{% static "all_files/mail-script.js" %}"></script>
+<script src="{% static "all_files/main.js" %}"></script>
 
 
 <script src="https://use.fontawesome.com/18c6714091.js"></script>

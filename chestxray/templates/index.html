@@ -1,4 +1,5 @@
 {% load staticfiles %}
+{% load static %}
 <!DOCTYPE html>
 <html class="no-js" style="display: block;" lang="zxx"><link type="text/css" id="dark-mode" rel="stylesheet" href=""><style type="text/css" id="dark-mode-custom-style"></style><head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -15,22 +16,22 @@
 		<!-- Site Title -->
 		<title>Home</title>
 
-		<link href="{% static "index_files/css.css" %}" rel="stylesheet"> 
+		<link href="{% static "all_files/css.css" %}" rel="stylesheet"> 
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 			<!--
 			CSS
 			============================================= -->
-			<link rel="stylesheet" href="{% static "index_files/linearicons.css"%}">
-			<link rel="stylesheet" href="{% static "index_files/font-awesome.css"%}">
-			<link rel="stylesheet" href="{% static "index_files/bootstrap.css"%}">
-			<link rel="stylesheet" href="{% static "index_files/magnific-popup.css"%}">
-			<link rel="stylesheet" href="{% static "index_files/jquery-ui.css"%}">				
-			<link rel="stylesheet" href="{% static "index_files/nice-select.css"%}">							
-			<link rel="stylesheet" href="{% static "index_files/animate.css"%}">
-			<link rel="stylesheet" href="{% static "index_files/owl.css"%}">			
-			<link rel="stylesheet" href="{% static "index_files/jquery-ui.css"%}">			
-			<link rel="stylesheet" href="{% static "index_files/main.css"%}">
-		<script type="text/javascript" charset="UTF-8" src="{% static "index_files/common.js" %}"></script><script type="text/javascript" charset="UTF-8" src="{% static "index_files/util.js" %}"></script><script type="text/javascript" charset="UTF-8" src="{% static "index_files/stats.js" %}"></script><script type="text/javascript" charset="UTF-8" src="{% static "index_files/AuthenticationService.Authenticate" %}"></script></head>
+			<link rel="stylesheet" href="{% static "all_files/linearicons.css"%}">
+			<link rel="stylesheet" href="{% static "all_files/font-awesome.css"%}">
+			<link rel="stylesheet" href="{% static "all_files/bootstrap.css"%}">
+			<link rel="stylesheet" href="{% static "all_files/magnific-popup.css"%}">
+			<link rel="stylesheet" href="{% static "all_files/jquery-ui.css"%}">				
+			<link rel="stylesheet" href="{% static "all_files/nice-select.css"%}">							
+			<link rel="stylesheet" href="{% static "all_files/animate.css"%}">
+			<link rel="stylesheet" href="{% static "all_files/owl.css"%}">			
+			<link rel="stylesheet" href="{% static "all_files/jquery-ui.css"%}">			
+			<link rel="stylesheet" href="{% static "all_files/main.css"%}">
+		<script type="text/javascript" charset="UTF-8" src="{% static "all_files/common.js" %}"></script><script type="text/javascript" charset="UTF-8" src="{% static "all_files/util.js" %}"></script><script type="text/javascript" charset="UTF-8" src="{% static "all_files/stats.js" %}"></script><script type="text/javascript" charset="UTF-8" src="{% static "all_files/AuthenticationService.Authenticate" %}"></script></head>
 		<body style="display: block;"><button type="button" id="mobile-nav-toggle"><i class="lnr lnr-menu"></i></button>	
 		  <header id="header">
 		    <div class="container main-menu">
@@ -46,16 +47,16 @@
 						<li><a href="{%url 'chestxray:team' %}">Team</a></li>				          					          		          
 						<li><a href="{%url 'chestxray:contact' %}">Contact</a></li>
 						{% if user.is_authenticated %}
-						<li><a href="">{{ user.username }}</a></li>
-                            <li><a href="{% url 'chestxray:log' %}">Log</a></li>
-						<li><a href="{% url 'chestxray:logout' %}">
-							<img width="100px" style="margin: -50px 0px;" alt="Google &quot;Google&quot; Logout" src="https://i.stack.imgur.com/I3NM6.png"/>
-						</a></li>
-						{% else %}
-						<li><a href="{%url 'social:begin' 'google-oauth2' %}" style="text-transform:none">
-						<img width="190px" style="margin: -45px 0px;" alt="Google &quot;Google&quot; Login" src="https://www.loqato.com/img/btn-login-googleplus.png"/>
-						</a></li>
-						{% endif %}
+                            <li><a href="">{{ user.username }}</a></li>
+                                <li><a href="{% url 'chestxray:log' %}">Log</a></li>
+                            <li><a href="{% url 'chestxray:logout' %}">
+                                <img width="100px" style="margin: -50px 0px;" alt="Google &quot;Google&quot; Logout" src="{% static "all_files/logout.png" %}"/>
+                            </a></li>
+                            {% else %}
+                            <li><a href="{%url 'social:begin' 'google-oauth2' %}" style="text-transform:none">
+                            <img width="190px" style="margin: -45px 0px;" alt="Google &quot;Google&quot; Login" src="{% static "all_files/login.png" %}"/>
+                            </a></li>
+                            {% endif %}
 			        </ul>
 			      </nav><!-- #nav-menu-container -->		    		
 		    	</div>
@@ -63,7 +64,7 @@
 		  </header><!-- #header -->
 
 			<!-- start banner Area -->
-			<section class="banner-area relative" id="home">
+			<section class="banner-area only-for-index relative" id="home">
 				<div class="overlay overlay-bg"></div>	
 				<div class="container">
 					<div class="row fullscreen d-flex align-items-center justify-content-center" style="height: 958px;">
@@ -128,7 +129,7 @@
 								<div class="col-lg-6 col-md-6">
 									<div class="single-service">
 										<div class="thumb">
-											<img class="img-fluid" src="{% static "index_files/s1.jpg" %}" alt="">		
+											<img class="img-fluid" src="{% static "all_files/s1.jpg" %}" alt="">		
 										</div>
                                         {% if user.is_authenticated %}
                                         <a href="{%url 'chestxray:chestxray' %}">
@@ -148,7 +149,7 @@
 								<div class="col-lg-6 col-md-6">
 									<div class="single-service">
 										<div class="thumb">
-											<img class="img-fluid" src="{% static "index_files/s2.jpg" %}" alt="">		
+											<img class="img-fluid" src="{% static "all_files/s2.jpg" %}" alt="">		
 										</div>
 										<a href="#">
 											<h4 class="text-white">Diabetic Retinopathy Detection</h4>
@@ -195,7 +196,7 @@
 		            <div class="row justify-content-center d-flex align-items-center">
 		                <div class="col-lg-3 col-md-6 single-team">
 		                    <div class="thumb">
-		                        <img class="img-fluid" src="{% static "index_files/t2.jpg" %}" alt="">
+		                        <img class="img-fluid" src="{% static "all_files/t2.jpg" %}" alt="">
 		                        <div class="align-items-end justify-content-center d-flex">
 									<div class="social-links">
 										<a href="https://www.facebook.com/ravitejalam"><i class="fa fa-facebook"></i></a>
@@ -212,7 +213,7 @@
 		                </div>
 {#		                <div class="col-lg-3 col-md-6 single-team">#}
 {#		                    <div class="thumb">#}
-{#		                        <img class="img-fluid" src="{% static "index_files/t3.jpg" %}" alt="">#}
+{#		                        <img class="img-fluid" src="{% static "all_files/t3.jpg" %}" alt="">#}
 {#		                        <div class="align-items-end justify-content-center d-flex">#}
 {#									<div class="social-links">#}
 {#											<a href="https://www.facebook.com/manohar.sai.12"><i class="fa fa-facebook"></i></i></a>#}
@@ -268,7 +269,7 @@
 											</div> 
 										
 											<div class="col-lg-4 col-md-12">
-												<button class="nw-btn primary-btn circle">Subscribe<span class="lnr lnr-arrow-right"></span></button>
+												<button class="nw-btn primary-btn circle">Subscribe</button>
 											</div> 
 										</div>		
 										<div class="info"></div>
@@ -294,21 +295,21 @@ Copyright ©<script>document.write(new Date().getFullYear());</script> All right
 			<!-- End footer Area -->
 
 
-			<script src="{% static "index_files/jquery-2.js" %}"></script>
-			<script src="{% static "index_files/popper.js" %}"></script>
-			<script src="{% static "index_files/bootstrap.js" %}"></script>			
-			<script src="{% static "index_files/js" %}"></script>
- 			<script src="{% static "index_files/jquery-ui.js" %}"></script>					
-  			<script src="{% static "index_files/easing.js" %}"></script>			
-			<script src="{% static "index_files/hoverIntent.js" %}"></script>
-			<script src="{% static "index_files/superfish.js" %}"></script>	
-			<script src="{% static "index_files/jquery_003.js" %}"></script>
-			<script src="{% static "index_files/jquery.js" %}"></script>	
-    		<script src="{% static "index_files/jquery_004.js" %}"></script>						
-			<script src="{% static "index_files/jquery_002.js" %}"></script>	
-			<script src="{% static "index_files/owl.js" %}"></script>									
-			<script src="{% static "index_files/mail-script.js" %}"></script>	
-			<script src="{% static "index_files/main.js" %}"></script>	
+			<script src="{% static "all_files/jquery-2.js" %}"></script>
+			<script src="{% static "all_files/popper.js" %}"></script>
+			<script src="{% static "all_files/bootstrap.js" %}"></script>			
+			<script src="{% static "all_files/js" %}"></script>
+ 			<script src="{% static "all_files/jquery-ui.js" %}"></script>					
+  			<script src="{% static "all_files/easing.js" %}"></script>			
+			<script src="{% static "all_files/hoverIntent.js" %}"></script>
+			<script src="{% static "all_files/superfish.js" %}"></script>	
+			<script src="{% static "all_files/jquery_003.js" %}"></script>
+			<script src="{% static "all_files/jquery.js" %}"></script>	
+    		<script src="{% static "all_files/jquery_004.js" %}"></script>						
+			<script src="{% static "all_files/jquery_002.js" %}"></script>	
+			<script src="{% static "all_files/owl.js" %}"></script>									
+			<script src="{% static "all_files/mail-script.js" %}"></script>	
+			<script src="{% static "all_files/main.js" %}"></script>	
 
 
 <script src="https://use.fontawesome.com/18c6714091.js"></script>	
