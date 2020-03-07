@@ -134,7 +134,7 @@ def sendmail(user,out):
     s.starttls()
 
     # Authentication
-    s.login(fromaddr, "basicpassword007")
+    s.login(fromaddr, "**************")
 
     # Converts the Multipart msg into a string
     text = msg.as_string()
